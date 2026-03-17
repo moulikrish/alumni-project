@@ -185,7 +185,7 @@ function Navbar() {
             <span className="welcome" style={{ color: "lightgray" }}>
               Welcome, {name}
             </span>
-            <button
+            <Link
               onClick={handleLogout}
               style={{
                 backgroundColor: "white",
@@ -197,7 +197,7 @@ function Navbar() {
               }}
             >
               Logout
-            </button>
+            </Link>
           </>
         )}
       </div>
