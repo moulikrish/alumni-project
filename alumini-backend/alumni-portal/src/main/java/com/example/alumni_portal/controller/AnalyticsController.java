@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://alumni-project-zoa5.vercel.app")
 
 public class AnalyticsController {
 

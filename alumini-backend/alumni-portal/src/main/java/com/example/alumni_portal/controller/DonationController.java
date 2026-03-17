@@ -18,7 +18,7 @@ import com.example.alumni_portal.repository.DonationRepository;
 
 @RestController
 @RequestMapping("/api/donations")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://alumni-project-zoa5.vercel.app")
 
 public class DonationController {
 
