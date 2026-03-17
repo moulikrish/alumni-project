@@ -1,0 +1,136 @@
+.register-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background-image:url("../../assets/auditorium.jpg");
+  background-size:cover;
+  background-position:center;
+
+  position:relative;
+
+  margin-top: 50px;
+}
+
+/* background overlay */
+
+.register-container::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+}
+
+/* glass card */
+
+.register-card{
+  position:relative;
+  z-index:1;
+
+  width:420px;   /* width increase */
+  padding:20px 30px;  /* height reduce */
+
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(10px);
+
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.3);
+
+  box-shadow:0 8px 32px rgb(253, 184, 19, 0.4);
+  color:white;
+}
+
+/* title */
+
+.register-card h4{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* role buttons */
+
+.role-buttons{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+
+
+.role-buttons button{
+  flex:1;
+  margin:3px;
+  padding:8px;
+  border:none;
+  border-radius:6px;
+  background:#ffffff30;
+  color:white;
+  transition:0.3s;
+  cursor:pointer;
+}
+
+.role-buttons button.active{
+  background:#fdb813;
+  color:black;
+  font-weight:600;
+}
+
+/* inputs */
+
+.register-card input{
+  width:100%;
+  padding:8px;
+  border-radius:6px;
+  border:none;
+
+  margin-top:3px;
+  margin-bottom:8px;   /* reduce height */
+
+  background:rgba(255,255,255,0.85);
+}
+
+/* checkbox */
+
+.form-check{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: rgb(207, 205, 205);
+}
+
+.form-check input{
+  width:auto;
+  margin: 0;
+  transform: translateY(1px);
+}
+
+/* button */
+
+.register-btn{
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  background:#002b6b;
+  color:white;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.register-btn:hover{
+  background:#fdb813;
+  color:black;
+}
+
+/* login link */
+
+.login-link{
+  color:#fdb813;
+  font-weight:600;
+  text-decoration: none;
+}

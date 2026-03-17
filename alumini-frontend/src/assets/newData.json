@@ -1,0 +1,182 @@
+[
+  {
+    "name": {
+      "title": "Miss",
+      "first": "Ece",
+      "last": "Dalkıran"
+    },
+    "gender": "female",
+    "email": "ece.dalkiran@example.com",
+    "cell": "(149)-596-2761",
+    "company": "Dalkıran Inc",
+    "location": {
+      "city": "Giresun",
+      "state": "Şırnak",
+      "country": "Turkey",
+      "postcode": 48979
+    },
+    "picture": "https://randomuser.me/api/portraits/med/women/2.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "Kenan",
+      "last": "Kunter"
+    },
+    "gender": "male",
+    "email": "kenan.kunter@example.com",
+    "cell": "(231)-218-6682",
+    "company": "Kunter Ltd",
+    "location": {
+      "city": "Erzurum",
+      "state": "Kahramanmaraş",
+      "country": "Turkey",
+      "postcode": 29481
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/59.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "Milton",
+      "last": "Davidson"
+    },
+    "gender": "male",
+    "email": "milton.davidson@example.com",
+    "cell": "07686 635152",
+    "company": "Davidson Corp",
+    "location": {
+      "city": "Plymouth",
+      "state": "Hampshire",
+      "country": "United Kingdom",
+      "postcode": "K4 6WR"
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/54.jpg"
+  },
+  {
+    "name": {
+      "title": "Ms",
+      "first": "Consuelo",
+      "last": "Alonso"
+    },
+    "gender": "female",
+    "email": "consuelo.alonso@example.com",
+    "cell": "691-214-947",
+    "company": "Alonso Ltd",
+    "location": {
+      "city": "Torrejón de Ardoz",
+      "state": "País Vasco",
+      "country": "Spain",
+      "postcode": 91358
+    },
+    "picture": "https://randomuser.me/api/portraits/med/women/35.jpg"
+  },
+  {
+    "name": {
+      "title": "Mrs",
+      "first": "Sarah",
+      "last": "Ross"
+    },
+    "gender": "female",
+    "email": "sarah.ross@example.com",
+    "cell": "D88 Q10-2499",
+    "company": "Ross Ltd",
+    "location": {
+      "city": "Keswick",
+      "state": "Prince Edward Island",
+      "country": "Canada",
+      "postcode": "V1Z 9G3"
+    },
+    "picture": "https://randomuser.me/api/portraits/med/women/46.jpg"
+  },
+  {
+    "name": {
+      "title": "Ms",
+      "first": "Mélissa",
+      "last": "Rolland"
+    },
+    "gender": "female",
+    "email": "melissa.rolland@example.com",
+    "cell": "06-00-40-47-69",
+    "company": "Rolland Ltd",
+    "location": {
+      "city": "Avignon",
+      "state": "Nord",
+      "country": "France",
+      "postcode": 58491
+    },
+    "picture": "https://randomuser.me/api/portraits/med/women/26.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "Sava",
+      "last": "Grujić"
+    },
+    "gender": "male",
+    "email": "sava.grujic@example.com",
+    "cell": "062-5069-536",
+    "company": "Grujić Ltd",
+    "location": {
+      "city": "Bor",
+      "state": "Toplica",
+      "country": "Serbia",
+      "postcode": 72281
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/68.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "Mitchell",
+      "last": "Spencer"
+    },
+    "gender": "male",
+    "email": "mitchell.spencer@example.com",
+    "cell": "(917) 404-3399",
+    "company": "Dalkıran Inc",
+    "location": {
+      "city": "Edison",
+      "state": "Idaho",
+      "country": "United States",
+      "postcode": 99241
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/67.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "William",
+      "last": "Guillaume"
+    },
+    "gender": "male",
+    "email": "william.guillaume@example.com",
+    "cell": "06-03-44-20-87",
+    "company": "Guillaume Ltd",
+    "location": {
+      "city": "Reims",
+      "state": "Côte-D'Or",
+      "country": "France",
+      "postcode": 94245
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/62.jpg"
+  },
+  {
+    "name": {
+      "title": "Mr",
+      "first": "Evaristo",
+      "last": "Gomes"
+    },
+    "gender": "male",
+    "email": "evaristo.gomes@example.com",
+    "cell": "(66) 8737-4244",
+    "company": "Gomes Ltd",
+    "location": {
+      "city": "Eunápolis",
+      "state": "Santa Catarina",
+      "country": "Brazil",
+      "postcode": 76202
+    },
+    "picture": "https://randomuser.me/api/portraits/med/men/28.jpg"
+  }
+]
