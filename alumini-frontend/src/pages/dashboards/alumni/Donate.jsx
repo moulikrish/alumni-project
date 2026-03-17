@@ -14,7 +14,7 @@ function Donate(){
   // GET DONATIONS
   const fetchDonations = async () => {
 
-    const res = await axios.get("http://localhost:8080/api/donations");
+    const res = await axios.get("https://alumni-project-8aoi.onrender.com/api/donations");
     setDonations(res.data);
 
   }
@@ -31,7 +31,7 @@ function Donate(){
 
       if(editId){
 
-        await axios.put(`http://localhost:8080/api/donations/${editId}`,{
+        await axios.put(`https://alumni-project-8aoi.onrender.com/api/donations/${editId}`,{
           alumniName:name,
           amount:amount,
           message:message
@@ -42,7 +42,7 @@ function Donate(){
 
       }else{
 
-        await axios.post("http://localhost:8080/api/donations",{
+        await axios.post("https://alumni-project-8aoi.onrender.com/api/donations",{
           alumniName:name,
           amount:amount,
           message:message
@@ -68,7 +68,7 @@ function Donate(){
   // DELETE
   const deleteDonation = async(id)=>{
 
-    await axios.delete(`http://localhost:8080/api/donations/${id}`);
+    await axios.delete(`https://alumni-project-8aoi.onrender.com/api/donations/${id}`);
     alert("Donation Deleted");
 
     fetchDonations();

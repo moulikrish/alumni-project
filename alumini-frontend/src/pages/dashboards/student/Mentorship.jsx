@@ -7,7 +7,7 @@ function Mentorship() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/mentors")
+      .get("https://alumni-project-8aoi.onrender.com/api/mentors")
       .then((res) => setMentors(res.data));
   }, []);
 

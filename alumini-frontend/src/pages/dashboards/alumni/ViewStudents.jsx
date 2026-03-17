@@ -7,7 +7,7 @@ function ViewStudents() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/students")
+      .get("https://alumni-project-8aoi.onrender.com/api/students")
       .then((res) => setStudents(res.data));
   }, []);
 

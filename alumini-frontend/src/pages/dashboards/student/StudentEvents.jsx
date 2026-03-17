@@ -7,7 +7,7 @@ function StudentEvents() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/admin/events")
+      .get("https://alumni-project-8aoi.onrender.com/api/admin/events")
       .then((res) => setEvents(res.data));
   }, []);
 

@@ -8,7 +8,7 @@ function ApproveAlumnis(){
 
   const fetchAlumni = () => {
 
-    axios.get("http://localhost:8080/api/admin/users")
+    axios.get("https://alumni-project-8aoi.onrender.com/api/admin/users")
       .then(res => {
 
         const pending = res.data.filter(
@@ -27,7 +27,7 @@ function ApproveAlumnis(){
 
   const approve = (id) => {
 
-    axios.put(`http://localhost:8080/api/admin/approve/${id}`)
+    axios.put(`https://alumni-project-8aoi.onrender.com/api/admin/approve/${id}`)
       .then(()=>{
         setAlumni(alumni.filter(a => a.id !== id));
       });

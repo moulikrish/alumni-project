@@ -26,7 +26,7 @@ function Analytics(){
 
   useEffect(()=>{
 
-    axios.get("http://localhost:8080/admin/analytics")
+    axios.get("https://alumni-project-8aoi.onrender.com/admin/analytics")
     .then(res=>{
 
       setData(res.data);

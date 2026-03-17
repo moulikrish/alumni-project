@@ -31,7 +31,7 @@ function Register() {
 
     try{
 
-      await axios.post("http://localhost:8080/auth/register", user);
+      await axios.post("https://alumni-project-8aoi.onrender.com/auth/register", user);
 
       alert("Registration Successful");
 

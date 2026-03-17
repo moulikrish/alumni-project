@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:8080/auth/login", {
+      const res = await axios.post("https://alumni-project-8aoi.onrender.com/auth/login", {
         email,
         password,
       });

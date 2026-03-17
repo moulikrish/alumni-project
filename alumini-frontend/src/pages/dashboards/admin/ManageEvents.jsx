@@ -18,7 +18,7 @@ useEffect(()=>{
 
 const fetchEvents = ()=>{
 
- axios.get("http://localhost:8080/api/admin/events")
+ axios.get("https://alumni-project-8aoi.onrender.com/api/admin/events")
  .then(res=>setEvents(res.data))
 
 }
@@ -28,7 +28,7 @@ const createEvent = ()=>{
 
  if(editId){
 
-  axios.put(`http://localhost:8080/api/admin/events/${editId}`,{
+  axios.put(`https://alumni-project-8aoi.onrender.com/api/admin/events/${editId}`,{
    title,
    date,
    time,
@@ -40,7 +40,7 @@ const createEvent = ()=>{
 
  }else{
 
-  axios.post("http://localhost:8080/api/admin/events",{
+  axios.post("https://alumni-project-8aoi.onrender.com/api/admin/events",{
    title,
    date,
    time,
@@ -57,7 +57,7 @@ const createEvent = ()=>{
 // DELETE EVENT
 const deleteEvent = (id)=>{
 
- axios.delete(`http://localhost:8080/api/admin/events/${id}`)
+ axios.delete(`https://alumni-project-8aoi.onrender.com/api/admin/events/${id}`)
  .then(()=>fetchEvents())
 
 }

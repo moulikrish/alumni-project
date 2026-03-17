@@ -18,7 +18,7 @@ function StudentProfile() {
     const id = localStorage.getItem("id");
 
     axios
-      .get(`http://localhost:8080/api/students/${id}`)
+      .get(`https://alumni-project-8aoi.onrender.com/api/students/${id}`)
       .then((res) => setProfile(res.data));
   }, []);
 
@@ -33,7 +33,7 @@ function StudentProfile() {
     const id = localStorage.getItem("id");
 
     axios
-      .put(`http://localhost:8080/api/students/${id}`, profile)
+      .put(`https://alumni-project-8aoi.onrender.com/api/students/${id}`, profile)
       .then(() => alert("Profile Updated"));
   };
 

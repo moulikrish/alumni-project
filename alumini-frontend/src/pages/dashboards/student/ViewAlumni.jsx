@@ -7,7 +7,7 @@ function ViewAlumni() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/auth/alumni")
+      .get("https://alumni-project-8aoi.onrender.com/auth/alumni")
       .then((res) => {
         console.log(res.data); // debug
         setAlumni(res.data);

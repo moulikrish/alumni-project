@@ -12,7 +12,7 @@ useEffect(()=>{
 
 const fetchDonations = ()=>{
 
- axios.get("http://localhost:8080/api/admin/donations")
+ axios.get("https://alumni-project-8aoi.onrender.com/api/admin/donations")
  .then(res=>setDonations(res.data))
 
 }

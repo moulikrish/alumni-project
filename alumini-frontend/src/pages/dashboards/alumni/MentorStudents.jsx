@@ -14,7 +14,7 @@ function MentorStudents(){
   // GET mentors
   const fetchMentors = async () => {
 
-    const res = await axios.get("http://localhost:8080/api/mentors");
+    const res = await axios.get("https://alumni-project-8aoi.onrender.com/api/mentors");
     setMentors(res.data);
 
   }
@@ -32,7 +32,7 @@ function MentorStudents(){
 
       if(editId){
 
-        await axios.put(`http://localhost:8080/api/mentors/${editId}`,{
+        await axios.put(`https://alumni-project-8aoi.onrender.com/api/mentors/${editId}`,{
           alumniName:name,
           expertise:expertise,
           availability:availability
@@ -43,7 +43,7 @@ function MentorStudents(){
 
       }else{
 
-        await axios.post("http://localhost:8080/api/mentors",{
+        await axios.post("https://alumni-project-8aoi.onrender.com/api/mentors",{
           alumniName:name,
           expertise:expertise,
           availability:availability
@@ -70,7 +70,7 @@ function MentorStudents(){
   // DELETE mentor
   const deleteMentor = async(id)=>{
 
-    await axios.delete(`http://localhost:8080/api/mentors/${id}`);
+    await axios.delete(`https://alumni-project-8aoi.onrender.com/api/mentors/${id}`);
 
     alert("Mentor Deleted");
 

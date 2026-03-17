@@ -15,11 +15,11 @@ function AdminDashboard() {
 
   useEffect(() => {
 
-    axios.get("http://localhost:8080/admin/analytics")
+    axios.get("https://alumni-project-8aoi.onrender.com/admin/analytics")
       .then(res => setAnalytics(res.data))
       .catch(err => console.log(err));
 
-    axios.get("http://localhost:8080/api/admin/users")
+    axios.get("https://alumni-project-8aoi.onrender.com/api/admin/users")
       .then(res => setUsers(res.data.slice(0,5)))
       .catch(err => console.log(err));
 

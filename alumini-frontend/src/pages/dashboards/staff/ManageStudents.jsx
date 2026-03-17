@@ -16,7 +16,7 @@ function ManageStudents(){
   // GET STUDENTS
   const fetchStudents = async () => {
 
-    const res = await axios.get("http://localhost:8080/api/students");
+    const res = await axios.get("https://alumni-project-8aoi.onrender.com/api/students");
 
     setStudents(res.data);
 
@@ -30,7 +30,7 @@ function ManageStudents(){
   // DELETE
   const deleteStudent = async(id)=>{
 
-    await axios.delete(`http://localhost:8080/api/students/${id}`);
+    await axios.delete(`https://alumni-project-8aoi.onrender.com/api/students/${id}`);
 
     alert("Student Deleted");
 
@@ -56,7 +56,7 @@ function ManageStudents(){
 
     e.preventDefault();
 
-    await axios.put(`http://localhost:8080/api/students/${editId}`,{
+    await axios.put(`https://alumni-project-8aoi.onrender.com/api/students/${editId}`,{
       name,
       email,
       department

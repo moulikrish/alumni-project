@@ -11,13 +11,13 @@ function ManageUsers() {
 
   const fetchUsers = () => {
     axios
-      .get("http://localhost:8080/api/admin/users")
+      .get("https://alumni-project-8aoi.onrender.com/api/admin/users")
       .then((res) => setUsers(res.data));
   };
 
   const deleteUser = (id) => {
     axios
-      .delete(`http://localhost:8080/api/admin/user/${id}`)
+      .delete(`https://alumni-project-8aoi.onrender.com/api/admin/user/${id}`)
       .then(() => fetchUsers());
   };
 

@@ -15,7 +15,7 @@ function ManageJobs(){
   // GET JOBS
   const fetchJobs = async () => {
 
-    const res = await axios.get("http://localhost:8080/api/jobs");
+    const res = await axios.get("https://alumni-project-8aoi.onrender.com/api/jobs");
     setJobs(res.data);
 
   };
@@ -33,7 +33,7 @@ function ManageJobs(){
 
       if(editId){
 
-        await axios.put(`http://localhost:8080/api/jobs/${editId}`,{
+        await axios.put(`https://alumni-project-8aoi.onrender.com/api/jobs/${editId}`,{
           title,
           company,
           location,
@@ -46,7 +46,7 @@ function ManageJobs(){
 
       }else{
 
-        await axios.post("http://localhost:8080/api/jobs",{
+        await axios.post("https://alumni-project-8aoi.onrender.com/api/jobs",{
           title,
           company,
           location,
@@ -75,7 +75,7 @@ function ManageJobs(){
   // DELETE JOB
   const deleteJob = async(id)=>{
 
-    await axios.delete(`http://localhost:8080/api/jobs/${id}`);
+    await axios.delete(`https://alumni-project-8aoi.onrender.com/api/jobs/${id}`);
 
     alert("Job Deleted");
 

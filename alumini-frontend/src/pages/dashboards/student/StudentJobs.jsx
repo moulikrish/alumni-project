@@ -7,7 +7,7 @@ function StudentJobs() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/jobs")
+      .get("https://alumni-project-8aoi.onrender.com/api/jobs")
       .then((res) => setJobs(res.data));
   }, []);
 
