@@ -169,7 +169,7 @@ function Navbar() {
 
         {role === "student" && (
           <>
-            <Link
+            <button
               to="/student-dashboard"
               className="dashboard-link"
               style={{
@@ -181,7 +181,7 @@ function Navbar() {
               }}
             >
               Student Home
-            </Link>
+            </button>
             <span className="welcome" style={{ color: "lightgray" }}>
               Welcome, {name}
             </span>
