@@ -73,7 +73,7 @@ function Login() {
             required
           />
 
-          <Link type="submit">Login</Link>
+          <Button type="submit">Login</Button>
 
           <p className="register-text">Welcome to Shanmuga Alumni</p>
         </form>
