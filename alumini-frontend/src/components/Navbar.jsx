@@ -43,7 +43,7 @@ function Navbar() {
     <nav className={`navbar ${show ? "show" : "hide"}`}>
       <div className="logo">
         {/* <img src={logo} alt="Logo" height="50" /> */}
-        Alumni Portal
+        <h1 className="text-light">Alumni Portal</h1>
       </div>
 
       <div className="nav-links">
