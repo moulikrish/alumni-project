@@ -75,7 +75,7 @@ function Login() {
 
           <button type="submit">Login</button>
 
-          <p className="register-text">Welcome to Shanmuga Alumni</p>
+          <p className="register-text">Welcome to Kathir Alumni</p>
         </form>
       </div>
     </div>
