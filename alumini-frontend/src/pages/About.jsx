@@ -15,7 +15,7 @@ function About(){
           <h1>About Our Institution</h1>
 
           <p>
-            Shanmugha Educational Institutions are committed to providing
+            Kathir Institutions are committed to providing
             high-quality education and fostering innovation, leadership,
             and professional excellence. Our institutions focus on
             academic growth, research, and community development while

@@ -11,9 +11,9 @@ function Footer() {
   <div className="footer-container">
 
     <div className="footer-left">
-      <img src={logo} alt="logo" height="50px"/>
+      {/* <img src={logo} alt="logo" height="50px"/> */}
       <p>
-      Established in 2010, Sri Shanmugha Educational Institutions has been a beacon of excellence in higher education.
+      Established in 2010, kathir Institutions has been a beacon of excellence in higher education.
       </p>
     </div>
 
@@ -41,7 +41,7 @@ function Footer() {
 
   <div className="footer-bottom">
 
-    <p>© 2026 Sri Shanmugha Educational Institutions</p>
+    <p>© 2026 Kathir Educational Institutions</p>
 
     <div className="social-icons">
       <i className="fab fa-facebook"><FaFacebookF/></i>

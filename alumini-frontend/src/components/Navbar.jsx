@@ -40,10 +40,10 @@ function Navbar() {
   };
 
   return (
-    <nav className={`navbar ${show ? "show" : "hide"}`}>
+    <nav className={`navbar ${show ? "show" : "hide"}`} style={{padding:"20px 20px 10px 20px"}}>
       <div className="logo">
         {/* <img src={logo} alt="Logo" height="50" /> */}
-        <h1 className="text-light">Alumni Portal</h1>
+        <h4 className="text-light">Alumni Portal</h4>
       </div>
 
       <div className="nav-links">

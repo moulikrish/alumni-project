@@ -25,7 +25,7 @@ function Contact() {
 
           <div className="contact-item">
             <FaMapMarkerAlt className="icon" />
-            <p>Pullipalayam, Morur(P.O),Sankari (T.K). Salem (D.T.), Tamil Nadu – 637304.</p>
+            <p>Neelambur, Coimbatore, Tamil Nadu – 637304.</p>
           </div>
 
           <div className="contact-item">
@@ -35,7 +35,7 @@ function Contact() {
 
           <div className="contact-item">
             <FaEnvelope className="icon" />
-            <p>info@shanmugha.edu.in</p>
+            <p>info@kathir.edu.in</p>
           </div>
 
           <div className="contact-item">
@@ -66,7 +66,7 @@ function Contact() {
 
       <section className="map-section">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.6264537788943!2d77.8796876!3d11.4346356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba961284b77fe25%3A0x6bc69b28b6037366!2sSri%20Shanmugha%20Educational%20Institution!5e0!3m2!1sen!2sin!4v1772772287684!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62656.67312754701!2d76.98597568119906!3d11.035470513115133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f8a1a1102167%3A0x68a77d6cb82f55a6!2sKathir%20College%20of%20Education!5e0!3m2!1sen!2sin!4v1774689650978!5m2!1sen!2sin" 
           width="100%"
           height="400"
           style={{ border: 0 }}
